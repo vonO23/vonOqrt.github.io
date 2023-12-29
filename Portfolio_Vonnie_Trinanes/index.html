@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #594a3a;
+      color: #fff;
+    }
+
+    header {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      padding: 80px 0;
+      background: #2b2b2b;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .nav__logo a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .section__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .about__image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .about__details,
+    .service__card p {
+      line-height: 1.6;
+    }
+
+    .service__card {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #2b2b2b;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .service__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project__card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #2b2b2b;
+      color: #fff;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .footer__form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .btn {
+      background-color: #fff;
+      color: #333;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /* Additional Styling */
+    h1 {
+      font-size: 3rem;
+      color: #00868B;
+    }
+
+    h2.section__title {
+      color: #00868B;
+    }
+
+    .section__subtitle {
+      color: #9dc1bd;
+    }
+
+    .service__card h4 {
+      color: #00868B;
+    }
+
+    .footer__title {
+      color: #00868B;
+    }
+
+    .social__icons .icon {
+      color: #00868B;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+        <div class="nav__logo"><a href="#"><span>V</span>on0qrt.</a></div>
+    </nav>
+    <div class="section__container header__container">
+        <p><span>Hello, I'm</span> Vonnie</p>
+        <h1>Vonnie Venus Triñanes</h1>
+        <h2 class="section__title">3D ARTIST.</h2>
+        <p>
+            Welcome to my personal portfolio! I'm a college student at BUP pursuing a Bachelor
+            of Science in Information Technology with a specialization in animation. I possess a passion for creating
+            digital art, encompassing various forms such as illustration and concept art. My commitment to personal
+            growth and skill enhancement drives me to consistently engage in digital art projects, allowing me to share
+            my work with the world. Explore my portfolio to discover my creative journey and the artistry I bring to the
+            table.
+        </p>
+    </div>
+</header>
+
+
+  <section class="about">
+    <div class="section__container about__container">
+      <div class="about__image">
+        <img src="image/Untitled21_20230515164355.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__title">About <span>Me</span></h2>
+        <p class="about__details">
+          Hello there! I'm Von0qrt, and I'm excited to share a glimpse of who I am. I proudly consider myself as a
+          unique blend of animation enthusiast and more. As a college student, I've dedicated myself to refining my
+          skills and mastering their practical application across a diverse range of environments. Eager to learn more
+          about my qualification? Feel free to explore my resume.
+        </p>
+        <div id="services">
+          <div class="container">
+            <div class="services-list">
+              <div>
+                <i class="ri-file-text-line"></i>
+                <h2>Check My Resume</h2>
+                <p>
+                  Kindly spare a moment to peruse my resume, which will provide you with a comprehensive insight
+                  into my background and qualifications.
+                </p>
+                  <a href="resume.html/Resume">Learn More</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service">
+    <div class="section__container service__container">
+      <p class="section__subtitle">What I Offer!</p>
+      <h2 class="section__title"><span>My</span> Services</h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <h4>3D Modeling</h4>
+          <p>
+            Looking to bring your ideas into the realm of three-Dimensional reality? I specialize in 3D modeling
+            services that can transform your concept into immersive, tangible experiences. Whether you inquire product
+            designs, architectural visualization, or lifelike character modeling.
+          </p>
+          <a href="resume.html" class="read__more">Read more...</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="software">
+    <div class="section__container software__container">
+      <h2 class="section__title"><span>Software</span> I Use</h2>
+      <div class="software__grid">
+        <div class="software__card">
+          <img src="image/blender.png" alt="Blender" />
+          <h4>Blender</h4>
+          <p>
+            I utilize Blender for various aspects of my 3D modeling and animation projects. Its powerful features
+            and open-source nature contribute to my creative process.
+          </p>
+        </div>
+        <div class="software__card">
+          <img src="image/maya.png" alt="Maya" />
+          <h4>Maya</h4>
+          <p>
+            Maya is another essential tool in my toolkit, especially for its comprehensive capabilities in animation,
+            modeling, and rendering. It plays a crucial role in bringing my ideas to life.
+          </p>
+        </div>
+        <div class="software__card">
+          <img src="image/zbrush.png" alt="ZBrush" />
+          <h4>ZBrush</h4>
+          <p>
+            ZBrush is my go-to software for sculpting and detailing. Its unique sculpting tools provide me with the
+            flexibility to create intricate designs and realistic characters.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project">
+    <div class="section__container project__container">
+      <h2 class="section__title"><span>Latest</span> Project</h2>
+      <div class="project__grid">
+        <div class="project__card">
+          <img src="image/dark vendor.png" alt="project" />
+        </div>
+        <div class="project__card">
+          <img src="image/ATATA.png" alt="project" />
+        </div>
+        <div class="project__card">
+          <img src="image/staffd.png" alt="project" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="section__container footer__container">
+      <div class="footer__content">
+        <h2 class="section__title">Contact <span>Me!</span></h2>
+        <p class="section__subtitle">If you have any project in your mind.</p>
+        <div class="footer__details">
+          <p>
+            You can reach me through the contact form provided on the website. Simply fill out the form with your
+            name, email address, and message, and I will get back to you as soon as possible.
+          </p>
+          <p>3D Artist, 21</p>
+          <p>Banuang Gurang, Donsol, Sorsogon</p>
+          <p>Philippines</p>
+        </div>
+        <div class="social__icons">
+          <a href="https://instagram.com/Von0qrt" class="icon"><i class="ri-instagram-fill"></i></a>
+        </div>
+      </div>
+      <form class="footer__form">
+        <input type="text" placeholder="Your Name" />
+        <input type="text" placeholder="Your Email Address" />
+        <input type="text" placeholder="Your Phone Number" />
+        <textarea cols="30" rows="10" placeholder="Your Idea"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </footer>
+
+</body>
+
+</html>
